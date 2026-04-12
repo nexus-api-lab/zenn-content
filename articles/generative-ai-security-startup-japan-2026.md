@@ -3,7 +3,7 @@ title: "生成AIセキュリティスタートアップが日本に登場 — Pr
 emoji: "🏢"
 type: "idea"
 topics: ["llm", "security", "startup", "ai", "saas"]
-published: false
+published: true
 published_at: "2026-04-13 09:00"
 ---
 
