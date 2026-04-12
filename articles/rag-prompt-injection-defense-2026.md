@@ -3,7 +3,7 @@ title: "RAGアプリへのプロンプトインジェクション攻撃と防御
 emoji: "🛡️"
 type: "tech"
 topics: ["rag", "llm", "security", "promptinjection", "ai"]
-published: false
+published: true
 published_at: "2026-04-14 09:00"
 ---
 
