@@ -4,6 +4,7 @@ emoji: "⚔️"
 type: "tech"
 topics: ["llm", "security", "japanese", "promptinjection", "pentest"]
 published: false
+published_at: "2026-04-16 09:00"
 ---
 
 LLMアプリのセキュリティテストに使える日本語攻撃パターンをまとめました。**これらはあなた自身のアプリのテスト専用**です。他者のサービスへの無断使用は禁止です。

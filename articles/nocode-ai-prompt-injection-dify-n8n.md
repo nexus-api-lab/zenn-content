@@ -4,6 +4,7 @@ emoji: "🔒"
 type: "tech"
 topics: ["dify", "n8n", "nocode", "llm", "security"]
 published: false
+published_at: "2026-04-15 09:00"
 ---
 
 Dify・n8n・Flowise・BotpressなどのノーコードAIツールでRAGアプリを作る場合も、プロンプトインジェクション対策は必須です。

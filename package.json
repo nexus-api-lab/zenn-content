@@ -1,0 +1,10 @@
+{
+  "name": "zenn-content",
+  "version": "1.0.0",
+  "scripts": {
+    "preview": "zenn preview"
+  },
+  "dependencies": {
+    "zenn-cli": "latest"
+  }
+}

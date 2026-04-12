@@ -4,6 +4,7 @@ emoji: "🛡️"
 type: "tech"
 topics: ["rag", "llm", "security", "promptinjection", "ai"]
 published: false
+published_at: "2026-04-14 09:00"
 ---
 
 最近、RAGアプリへの攻撃報告が急増しています。本記事では**攻撃の実態と、エッジで動く防御策**を解説します。

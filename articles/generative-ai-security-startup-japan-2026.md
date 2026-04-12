@@ -4,6 +4,7 @@ emoji: "🏢"
 type: "idea"
 topics: ["llm", "security", "startup", "ai", "saas"]
 published: false
+published_at: "2026-04-13 09:00"
 ---
 
 2025年8月、プロンプトインジェクション防御の代表格だったPrompt SecurityがSentinelOneに$250Mで買収されました。その結果、SME・開発者向け市場に巨大な空白が生まれました。
