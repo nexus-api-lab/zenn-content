@@ -511,6 +511,6 @@ async def check_prompt(request: PromptRequest) -> PromptResponse:
 2. **正規化後に混合スクリプト検出を走らせる** — `detect_mixed_script_words()` で単語内のラテン/キリル/ギリシャ混在を検出。誤検出が少なく攻撃の意図を高精度で示す。
 3. **フィルターは常に正規化済みテキストに対して実行する** — 生の入力に対してキーワードマッチングを行う設計は、ホモグリフ攻撃に対して根本的に無防備だ。
 
-ホモグリフ・ゼロ幅文字・全角バイパス等のUnicode攻撃を網羅的に検出するAPIとして **jpi-guard** があります。NFKC正規化済みの判定結果を返すため、本記事で解説した個別実装を書かずに本番品質の防御を追加できます。トライアルキーは**2,000リクエスト無料・カード登録不要**で即日発行されます: https://www.nexus-api-lab.com/jpi-guard.html
+ホモグリフ・ゼロ幅文字・全角バイパス等のUnicode攻撃を網羅的に検出するAPIとして jpi-guard があります。NFKC正規化済みの判定結果を返すため、個別実装なしに本番品質の防御を追加できます: https://www.nexus-api-lab.com/jpi-guard.html
 
-攻撃検知と並行して個人情報の入力フィルタリングも必要な場合は **pii-guard**（1,000リクエスト無料・カード不要）も合わせてご確認ください: https://www.nexus-api-lab.com/pii-guard.html
+攻撃検知と並行して個人情報の入力フィルタリングも必要な場合は pii-guard（1,000リクエスト無料）も合わせてご確認ください: https://www.nexus-api-lab.com/pii-guard.html
